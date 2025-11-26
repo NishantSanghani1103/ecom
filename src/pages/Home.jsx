@@ -37,7 +37,7 @@ export default function Home() {
             <section className='max-w-full ' id='homeContent'>
                 <div className='max-w-[1320px]  mx-auto'>
                     <div className='w-full grid lg:grid-cols-[25%_auto]'>
-                        <div className={`lg:static fixed top-0 lg:z-0  w-full z-99 lg:h-auto duration-300 min-h-screen
+                        <div className={`lg:static fixed top-0 lg:z-0  w-full z-99 lg:h-auto duration-300 h-screen overflow-y-auto
                             
                             ${mobileNav ? ` left-0` : `-left-full `}
                             bg-white`}>
